@@ -1,9 +1,17 @@
 ## How to install:
-(Assuming you have Ruby 1.9.3+ and Bundler installed)
+(Assuming you have Ruby 1.9.3+)
 
-* First, clone or download this repository (and extract the archive)
-* Second, enter the downloaded folder in the command line 'cd [folder-name]', and run `bundle install` to install the games dependancies semi-automatically
-* Third, run `ruby whack-a-fabe.rb`
+* First,  Download xcode in the terminal write 'xcode-select --install'
+* Second, Install Homebrew if you don't already have it with 'ruby -e "$(curl -fsSL'
+* Third,  Once Homebrew is installed run 'brew doctor'
+* Fourth, Next run this command 'brew install sdl2 libogg libvorbis'
+* Fifth,  Finally run this command 'sudo gem install gosu' (Ruby game library)
+
+## How to run the game
+
+* First,  clone or download this repository (and extract the archive)
+* Second, enter the downloaded folder in the command line 'cd [folder-name]'
+* Third,  run `ruby whack-a-fabe.rb`
 You should now be playing the game, enjoy.
 
 
